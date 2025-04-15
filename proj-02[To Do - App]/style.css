@@ -1,6 +1,45 @@
-*{
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    box-sizing: git ;
+  }
+
+  /* Container */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+/* TO-do app box */
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+todo-app h2 {
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.todo-app h2 img{
+    width: 30px;
+    margin-left: 10px;
+}
+
